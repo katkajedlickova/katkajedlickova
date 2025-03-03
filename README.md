@@ -59,7 +59,6 @@
     <h2>My Projects</h2>
     <div class="projects">
       <div class="project">
-        <img src="https://katerina.jedlicka.live/wp-content/uploads/2023/08/jedle-2048x1536.png" alt="personal-website" load="lazy" width="100" height="100"/>
         <div class="description">
           <a href="https://katerina.jedlicka.live/" target="_blank"><h2><span><</span> Personal website <span>/></span></h2></a>
           <p>
@@ -69,7 +68,6 @@
         </div>
       </div>
       <div class="project">
-        <img src="https://clipground.com/images/make-signature-clipart-1.jpg" alt="first-website" load="lazy" width="100" height="100"/>
         <div class="description">
           <a href="https://kandidat.shinyapps.io/prezident/" target="_blank">
             <h2><span><</span> My first website project <span>/></span></h2>
