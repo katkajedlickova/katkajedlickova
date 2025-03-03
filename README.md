@@ -67,18 +67,18 @@
     <div class="projects">
       <div class="project">
         <div class="description">
-          <a href="https://katerina.jedlicka.live/" target="_blank" rel="noreferrer"><h3>Personal website</h3></a>
+          <h3>Personal website</h3>
           <p>
-            My personal website for some hobbies of mine (animating, drawing ect.).
+            <a href="https://katerina.jedlicka.live/" target="_blank" rel="noreferrer">My personal website</a> for some hobbies of mine (animating, drawing ect.).
             <br>These are mainly some of my ancient projects, but since people are willing to wait 24 years for a new Gladiator movie, I am not ashamed of not updating it that frequently.
           </p>
         </div>
       </div>
       <div class="project">
         <div class="description">
-          <a href="https://kandidat.shinyapps.io/prezident/" target="_blank" rel="noreferrer"><h3>My first website project</h3></a>
+          <h3>My first website project</h3>
           <p>
-            A web aplication that I made for a SOČ (secondery school professional activities). It's used to calculate the likelihood of success of a presidential candidate's petition, based on my country's electoral system. It's writen in R and CSS and It's my first website project.
+            <a href="https://kandidat.shinyapps.io/prezident/" target="_blank" rel="noreferrer">A web aplication</a> that I made for a SOČ (secondery school professional activities). It's used to calculate the likelihood of success of a presidential candidate's petition, based on my country's electoral system. It's writen in R and CSS and It's my first website project.
           </p>
         </div>
       </div>
