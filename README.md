@@ -66,9 +66,9 @@
     <h2>My Projects</h2>
     <div class="projects">
       <div class="project">
-        <img src="https://katerina.jedlicka.live/wp-content/uploads/2023/08/jedle-2048x1536.png" alt="personal-website" load="lazy"/>
         <div class="description">
-          <a href="https://katerina.jedlicka.live/" target="_blank"><h2><span><</span> Personal website <span>/></span></h2></a>
+          <a href="https://katerina.jedlicka.live/" target="_blank">
+            <h3><span><</span> Personal website <span>/></span></h3></a>
           <p>
             My personal website for some hobbies of mine (animating, drawing ect.).
             <br>These are mainly some of my ancient projects, but since people are willing to wait 24 years for a new Gladiator movie, I am not ashamed of not updating it that frequently.
@@ -76,10 +76,9 @@
         </div>
       </div>
       <div class="project">
-        <img src="https://clipground.com/images/make-signature-clipart-1.jpg" alt="first-website" load="lazy" />
         <div class="description">
           <a href="https://kandidat.shinyapps.io/prezident/" target="_blank">
-            <h2><span><</span> My first website project <span>/></span></h2>
+            <h3><span><</span> My first website project <span>/></span></h3>
           </a>
           <p>
             A web aplication that I made for a SOČ (secondery school professional activities). It's used to calculate the likelihood of success of a presidential candidate's petition, based on my country's electoral system. It's writen in R and CSS and It's my first website project.
