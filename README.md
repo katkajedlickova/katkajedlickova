@@ -1,98 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <style>
-    .skill {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 16px;
-}
-span {
-  opacity: 0%;
-}
-.skill:hover span, .skill:hover {
-  opacity: 100%;
-  color: orange;
-}
-.skill:hover {
-  justify-content: left;
-}
-.skill:hover .icons {
-  justify-content: center;
-  gap: 0%;
-}
-.icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 20%;
-}
-.icons a {
-  text-decoration: none;
-}
-h3 {
-  text-align: center;
-  padding-bottom: 10px;
-}
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.project {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(51, 51, 51);
-  color: white;
-  max-width: 100%;
-  max-height: 50%;
-  border-radius: 10px;
-  margin-bottom: 10%;
-}
-.project img {
-  width: 40%;
-  height: auto;
-  border-radius: 10px 0px 0px 10px;
-}
-.project a {
-  text-decoration: none;
-  color: white;
-}
-.project:hover span, .project:hover h2{
-  opacity: 100%;
-  color: orange;
-}
-.description {
-  padding: 10px;
-}
-@media (max-width: 700px) {
-  .projects {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .project {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .project img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0px 0px;
-  }
-}
-
-  </style>
-</head>
-<body>
 <h1>Hi, I'm Kate...</h1>
 <p>I'm a first year computer science student at Masaryk University. I have no experience whatsoever, thats why I'm here to make some projects.</p>
 
@@ -154,7 +59,7 @@ h3 {
     <h2>My Projects</h2>
     <div class="projects">
       <div class="project">
-        <img src="https://katerina.jedlicka.live/wp-content/uploads/2023/08/jedle-2048x1536.png" alt="personal-website" load="lazy"/>
+        <img src="https://katerina.jedlicka.live/wp-content/uploads/2023/08/jedle-2048x1536.png" alt="personal-website" load="lazy" width="100" height="100"/>
         <div class="description">
           <a href="https://katerina.jedlicka.live/" target="_blank"><h2><span><</span> Personal website <span>/></span></h2></a>
           <p>
@@ -164,7 +69,7 @@ h3 {
         </div>
       </div>
       <div class="project">
-        <img src="https://clipground.com/images/make-signature-clipart-1.jpg" alt="first-website" load="lazy" />
+        <img src="https://clipground.com/images/make-signature-clipart-1.jpg" alt="first-website" load="lazy" width="100" height="100"/>
         <div class="description">
           <a href="https://kandidat.shinyapps.io/prezident/" target="_blank">
             <h2><span><</span> My first website project <span>/></span></h2>
