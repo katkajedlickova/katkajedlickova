@@ -1,8 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css" />
   <meta charset="utf-8" />
+  <style>
+    .skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+}
+span {
+  opacity: 0%;
+}
+.skill:hover span, .skill:hover {
+  opacity: 100%;
+  color: orange;
+}
+.skill:hover {
+  justify-content: left;
+}
+.skill:hover .icons {
+  justify-content: center;
+  gap: 0%;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20%;
+}
+.icons a {
+  text-decoration: none;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  max-width: 100%;
+  max-height: 50%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.project img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px 0px 0px 10px;
+}
+.project a {
+  text-decoration: none;
+  color: white;
+}
+.project:hover span, .project:hover h2{
+  opacity: 100%;
+  color: orange;
+}
+.description {
+  padding: 10px;
+}
+@media (max-width: 700px) {
+  .projects {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+  </style>
 </head>
 <body>
 <h1>Hi, I'm Kate...</h1>
