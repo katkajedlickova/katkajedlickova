@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+</head>
+<body>
 <h1>Hi, I'm Kate...</h1>
 <p>I'm a first year computer science student at Masaryk University. I have no experience whatsoever, thats why I'm here to make some projects.</p>
 
@@ -59,6 +66,7 @@
     <h2>My Projects</h2>
     <div class="projects">
       <div class="project">
+        <img src="https://katerina.jedlicka.live/wp-content/uploads/2023/08/jedle-2048x1536.png" alt="personal-website" load="lazy"/>
         <div class="description">
           <a href="https://katerina.jedlicka.live/" target="_blank"><h2><span><</span> Personal website <span>/></span></h2></a>
           <p>
@@ -68,6 +76,7 @@
         </div>
       </div>
       <div class="project">
+        <img src="https://clipground.com/images/make-signature-clipart-1.jpg" alt="first-website" load="lazy" />
         <div class="description">
           <a href="https://kandidat.shinyapps.io/prezident/" target="_blank">
             <h2><span><</span> My first website project <span>/></span></h2>
