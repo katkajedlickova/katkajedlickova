@@ -1,1 +1,8 @@
-
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.skills a {
+  text-decoration: none;
+}
